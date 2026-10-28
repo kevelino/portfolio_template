@@ -18,7 +18,7 @@ export default function Page() {
         <div className="mx-auto w-full max-w-2xl space-y-8 tech-border p-6 bg-background/50 backdrop-blur-sm">
           <div className="flex flex-col-reverse sm:flex-row gap-4 justify-between items-start">
             <div className="flex-col flex flex-1 space-y-1.5">
-              <div className="tech-label">System.Initialize(&quot;Kevelino&quot;)</div>
+              <div className="tech-label">System.Initialize(&quot;{DATA.name}&quot;)</div>
               <h3 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none font-mono">
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
@@ -53,9 +53,11 @@ export default function Page() {
           <h2 className="text-xl font-bold">About</h2>
         </BlurFade>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <Markdown className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
-            {DATA.summary}
-          </Markdown>
+          <div className="prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert">
+            <Markdown>
+              {DATA.summary}
+            </Markdown>
+          </div>
         </BlurFade>
       </section>
       {/* Removed Work and Education as requested */}

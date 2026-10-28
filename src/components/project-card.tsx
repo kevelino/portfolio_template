@@ -51,9 +51,9 @@ export function ProjectCard({
           <div className="tech-label text-primary font-bold mb-1" aria-hidden="true">Project.Data</div>
           <CardTitle className="mt-1 text-base font-mono uppercase tracking-tight">{title}</CardTitle>
           <time className="font-mono text-[10px] opacity-60 underline decoration-primary/30 underline-offset-4">{dates}</time>
-          <Markdown className="prose max-w-full text-pretty font-mono text-[11px] text-muted-foreground dark:prose-invert mt-2 leading-relaxed">
-            {description}
-          </Markdown>
+          <div className="prose max-w-full text-pretty font-mono text-[11px] text-muted-foreground dark:prose-invert mt-2 leading-relaxed">
+            <Markdown>{description}</Markdown>
+          </div>
         </div>
       </CardHeader>
       <CardContent className="mt-auto flex flex-col px-2 pb-2">

@@ -26,7 +26,7 @@ Unlike Python's dynamic allocation, Rust allows AI infrastructure to pre-allocat
 ```rust
 // A glimpse into 2026 high-performance inference
 fn main() {
-    let model = AgenticModel::load("kevelino-core-v2");
+    let model = AgenticModel::load("nova-core-v2");
     let result = model.infer_with_static_buffer(input);
     // Latency: < 1ms
 }

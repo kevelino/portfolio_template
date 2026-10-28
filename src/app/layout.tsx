@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: `${DATA.name}`,
     locale: "en_US",
     type: "website",
-    images: [{ url: "/me.png", width: 112, height: 112 }],
+    images: [{ url: "/me.svg", width: 112, height: 112 }],
   },
   robots: {
     index: true,
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
   twitter: {
     title: `${DATA.name}`,
     card: "summary_large_image",
-    images: ["/me.png"],
+    images: ["/me.svg"],
   },
 };
 

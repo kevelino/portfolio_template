@@ -2,16 +2,16 @@ import { Icons } from "@/components/icons";
 import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
-  name: "Kevelino",
-  initials: "K",
-  url: "https://kevelino.vercel.app",
-  location: "Douala, Cameroun",
-  locationLink: "https://www.google.com/maps/place/douala",
+  name: "Alex Carter",
+  initials: "AC",
+  url: "https://your-portfolio.vercel.app",
+  location: "San Francisco, CA",
+  locationLink: "https://www.google.com/maps/place/san-francisco",
   description:
     "Transforming ideas into products.",
   summary:
     "Full-Stack Developer specialized in Saas Building, transforming complex ideas into clean, fast, and scalable digital products.",
-  avatarUrl: "/me.png",
+  avatarUrl: "/me.svg",
   skills: [
     "Python",
     "Javascript",
@@ -31,36 +31,36 @@ export const DATA = {
     { href: "/blog", icon: NotebookIcon, label: "Blog" },
   ],
   contact: {
-    email: "justkevelino@gmail.com",
-    tel: "+237681066371",
+    email: "alex.carter@example.com",
+    tel: "+1 (555) 123-4567",
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/kevelino",
+        url: "https://github.com/your-username",
         icon: Icons.github,
         navbar: true,
       },
       LinkedIn: {
         name: "LinkedIn",
-        url: "https://linkedin.com/in/kevelino",
+        url: "https://linkedin.com/in/your-username",
         icon: Icons.linkedin,
         navbar: true,
       },
       X: {
         name: "X",
-        url: "https://x.com/kvlino",
+        url: "https://x.com/your_username",
         icon: Icons.x,
         navbar: true,
       },
       Youtube: {
         name: "Youtube",
-        url: "https://youtube.com/@kevelino",
+        url: "https://youtube.com/@your_username",
         icon: Icons.youtube,
         navbar: true,
       },
       email: {
         name: "Send Email",
-        url: "mailto:justkevelino@gmail.com",
+        url: "mailto:alex.carter@example.com",
         icon: Icons.email,
         navbar: true,
       },
@@ -69,42 +69,24 @@ export const DATA = {
 
   projects: [
     {
-      title: "Vendo",
-      href: "https://vendo-delta-five.vercel.app/",
+      title: "Nimbus",
+      href: "https://nimbus-demo.vercel.app",
       dates: "2025 - 2026",
       active: false,
       description:
-        "Chrome extension to optimize description for Vinted, LebonCoin, etc. Helps sellers increase visibility and close sales faster.",
-      technologies: ["Javascript", "Chrome API", "AI", "TailwindCSS"],
-      links: [
-        {
-          type: "Website",
-          href: "https://vendo-delta-five.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Trackly",
-      href: "https://trickly.vercel.app",
-      dates: "2025 - 2026",
-      active: false,
-      description:
-        "A web app to track all your excursion and habitude. Visualize your progress and stay consistent with your goals.",
+        "AI-powered content pipeline that turns raw notes into structured documentation.",
       technologies: [
         "React",
         "Next.js",
         "Typescript",
         "TailwindCSS",
+        "OpenAI",
         "Supabase",
-        "Framer Motion",
       ],
       links: [
         {
           type: "Website",
-          href: "https://trickly.vercel.app",
+          href: "https://nimbus-demo.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -112,25 +94,24 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Doculabs",
-      href: "https://doculabs.vercel.app",
+      title: "Pulse",
+      href: "https://pulse-demo.vercel.app",
       dates: "2025 - Present",
       active: true,
       description:
-        "A SaaS to analyze your professional documents (Service Offer, Quote, Business Pitch, etc.) and suggest improvements using advanced AI.",
+        "Real-time product analytics dashboard that turns raw events into live insights.",
       technologies: [
         "React",
         "Next.js",
         "Typescript",
         "TailwindCSS",
-        "Prisma",
-        "PostgreSQL",
-        "OpenAI",
+        "ClickHouse",
+        "WebSockets",
       ],
       links: [
         {
           type: "Website",
-          href: "https://doculabs.vercel.app",
+          href: "https://pulse-demo.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -138,49 +119,24 @@ export const DATA = {
       video: "",
     },
     {
-      title: "Earlist",
-      href: "https://earlist.vercel.app",
+      title: "Foundry",
+      href: "https://foundry-demo.vercel.app",
       dates: "2026 - Present",
       active: true,
       description:
-        "Capture early fans, ask 3 validation questions, and get an AI-generated report — before you write a single line of code.",
+        "Internal developer platform to provision services and manage feature flags.",
       technologies: [
         "React",
         "Next.js",
         "Typescript",
         "TailwindCSS",
-        "PostgreSQL",
-        "GenAI",
+        "Postgres",
+        "Flagsmith",
       ],
       links: [
         {
           type: "Website",
-          href: "https://earlist.vercel.app",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-      video: "",
-    },
-    {
-      title: "Faktum",
-      href: "https://faktum-app.vercel.app",
-      dates: "2026 - Present",
-      active: true,
-      description:
-        "Create, share, and manage quotes and invoices. Designed for Cameroonian law firms and SMEs.",
-      technologies: [
-        "React",
-        "Next.js",
-        "Typescript",
-        "TailwindCSS",
-        "PostgreSQL",
-        "Supabase",
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://faktum-app.vercel.app",
+          href: "https://foundry-demo.vercel.app",
           icon: <Icons.globe className="size-3" />,
         },
       ],
